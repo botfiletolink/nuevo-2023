@@ -51,8 +51,8 @@ from decorators import async_decorator
 
 from RVClient import Rlogin
 
-api_id = 6951967340
-api_hash = "e532d52554115eed48f82f7dcb10b171"
+api_id = 28146160
+api_hash = "05d80a5935831931b5a16d14f8289b8c"
 bot_token = Bot_token
 Channel_Id = chanel_id
 bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
