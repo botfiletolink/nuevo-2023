@@ -51,16 +51,16 @@ from decorators import async_decorator
 
 from RVClient import Rlogin
 
-api_id = 28146160
-api_hash = "05d80a5935831931b5a16d14f8289b8c"
+api_id = 9652234
+api_hash = "e532d52554115eed48f82f7dcb10b171"
 bot_token = Bot_token
 Channel_Id = chanel_id
 bot = Client("bot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
-boss = ['Zorritotheboss']#usuarios supremos
+boss = ['zorritotheboss']#usuarios supremos
 
 Configs = {"uclv":'',"gtm":"","uvs":"","ltu":"","uccfd":"","vcl":"",
 			"ucuser": "", "ucpass":"","uclv_p":"", "gp":None, "s":"On", 
-			'Zorritotheboss': {'z': 99,"m":"e","a":"c","t":"y","gp":False}}
+			'zorritotheboss': {'z': 99,"m":"e","a":"c","t":"y","gp":False}}
 
 Urls = {} #urls subidos a educa
 Urls_draft = {} #urls para borrar de draft
@@ -69,8 +69,8 @@ id_de_ms = {} #id de mensage a borrar con la funcion de cancelar
 root = {} #directorio actual
 downlist = {} #lista de archivos descargados
 procesos = 0 #numero de procesos activos en el bot
-total_up = {'Zorritotheboss':{'P':0,'S':0}} #total en gb o megas subidos en bytes (int)
-rvs = {'Zorritotheboss':{'h':'','u':'','p':'','up':'','z':0,'m':'m'}}
+total_up = {'zorritotheboss':{'P':0,'S':0}} #total en gb o megas subidos en bytes (int)
+rvs = {'zorritotheboss':{'h':'','u':'','p':'','up':'','z':0,'m':'m'}}
 
 #inicio
 @bot.on_message(filters.command("start", prefixes="/") & filters.private)
